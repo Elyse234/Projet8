@@ -7,6 +7,7 @@ const path=require("path");
 dotenv.config({path:path.join(__dirname,".env")});
 const cors=require("cors");
 const app=express();
+app.use(express.json({limit:"10kb"}));
 app.use(cors({
     origin:[
         "http://localhost:5500",
@@ -16,7 +17,7 @@ app.use(cors({
     methods:["GET","POST","OPTIONS"],
     allowedHeaders:["Content-Type"]
 }))
-app.use(express.json({limit:"10kb"}));
+
 
 app.get("/api/health",(req,res)=>{
     res.json(200)({success:true,message:"API opérationnelle"});
