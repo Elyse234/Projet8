@@ -40,7 +40,7 @@ const PROJECTS = [
     resultat: "Interface d'administration avec connexion",
     tags: ["JavaScript", "Node.js", "SQLite"],
     legende: "Capture Sophie Bluel",
-    image: "images/sophie_bluel.png",
+    image: "./assets/images/Sophie_Bluel1.png",
 
     contexte: "Dans le cadre de ma formation chez OpenClassrooms, j’ai développé un portfolio web pour une architecte d’intérieur. Le projet comprend une interface publique présentant ses réalisations et une interface d’administration permettant de gérer les projets de la galerie.",
 
@@ -64,7 +64,7 @@ const PROJECTS = [
 
     perspectives: "Le projet pourrait être amélioré par l’ajout de tests automatisés, une validation plus complète du formulaire et une meilleure gestion des erreurs réseau.",
 
-    captures: [],
+    captures: ["./assets/images/Sophie_Bluel1.png","./assets/images/SophieBluel2.png","./assets/images/Sophie_Bluel3.png"],
 
     liens: {
       github: "https://github.com/Elyse234/Projet3"
@@ -79,7 +79,7 @@ const PROJECTS = [
     resultat: "Lighthouse : performance de 35 à 64",
     tags: ["SEO", "Lighthouse", "jQuery"],
     legende: "Capture Nina Carducci",
-    image: "images/ninca_carducci.png",
+    image: "./assets/images/Nina_Carducci1.png",
 
     contexte: "Dans le cadre de ma formation chez OpenClassrooms, j’ai travaillé sur l’optimisation du site vitrine d’une photographe professionnelle. La mission consistait à analyser le site existant, identifier les problèmes techniques et améliorer ses performances, son référencement naturel et son accessibilité.",
 
@@ -110,7 +110,7 @@ const PROJECTS = [
 
     perspectives: "Les prochaines étapes consisteraient à poursuivre l’optimisation des performances, à traiter les problèmes d’accessibilité restants et à améliorer les éléments SEO. De nouveaux audits et des tests sur différents appareils permettraient de vérifier les progrès et de maintenir la qualité du site.",
 
-    captures: [],
+    captures: ["./assets/images/Nina_Carducci1.png","./assets/images/Nina_Carducci2.png","./assets/images/Nina_Carducci3.png"],
 
     liens: {
       github: "https://github.com/Elyse234/Projet4"
@@ -125,7 +125,7 @@ const PROJECTS = [
     resultat: "Application monopage responsive",
     tags: ["React", "Sass", "React Router"],
     legende: "Capture Kasa",
-    image: "images/kasa.png",
+    image: "./assets/images/Kasa1.png",
 
     contexte: "Kasa est un projet réalisé dans le cadre de ma formation en développement web chez OpenClassrooms. Il consiste à développer une application web permettant de consulter des logements à louer et de découvrir leurs caractéristiques à travers une interface moderne et intuitive.",
 
@@ -148,7 +148,7 @@ const PROJECTS = [
 
     perspectives: "Le projet pourrait être enrichi par une recherche multicritère, des filtres par type de logement ou par équipement, ainsi qu’un système de favoris. Une connexion à une API permettrait également de récupérer les données depuis un service externe plutôt que depuis un fichier JSON local.",
 
-    captures: [],
+    captures: ["./assets/images/Kasa1.png","./assets/images/Kasa2.png","./assets/images/Kasa3.png"],
 
     liens: {
       github: "https://github.com/Elyse234/Projet5"
