@@ -225,7 +225,7 @@ const PROJECTS = [
 
     perspectives: "La démarche pourrait être enrichie par des points de suivi réguliers, une mise à jour continue et une veille documentée et périodiquement actualisée. Un bilan final permettrait également de comparer la planification initiale avec l’avancement réel du projet.",
 
-    captures: ["./assets/images/Kanban3.png","./assets/images/technique1.png","./assets/images/technique2.png"]
+    captures: ["./assets/images/Kanban3.png","./assets/images/technique1.PNG","./assets/images/technique2.PNG"]
 
     
   }
