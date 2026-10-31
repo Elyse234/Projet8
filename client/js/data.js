@@ -163,7 +163,7 @@ const PROJECTS = [
     resultat: "API sécurisée et classement des trois meilleurs livres",
     tags: ["Node.js", "Express", "MongoDB"],
     legende: "Capture Mon Vieux Grimoire",
-    image: "images/mon_vieux_grimoire.png",
+    image: "./assets/images/Mon_Vieux1.png",
 
     contexte: "Dans le cadre de ma formation OpenClassrooms, j’ai développé le backend de Mon Vieux Grimoire, une application de référencement et de notation de livres.",
 
@@ -188,7 +188,7 @@ const PROJECTS = [
 
     perspectives: "Le projet pourrait être enrichi par des tests automatisés, une documentation interactive de l’API et une gestion centralisée des erreurs.",
 
-    captures: [],
+    captures: ["./assets/images/Mon_Vieux1.png","./assets/images/Mon_Vieux2.png","./assets/images/Mon_Vieux3.png"],
 
     liens: {
       github: "https://github.com/Elyse234/Projet6"
