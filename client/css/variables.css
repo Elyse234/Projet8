@@ -1,33 +1,37 @@
 /* Couleurs et thèmes */
 :root {
+    color-scheme:light;
   --ink: #111827;
   --accent: #7C3AED;
+  --accent-hover:#5B21B6 ;
+  --accent-contrast:#FFFFFF;
   --lime: #A3E635;
   --bg: #F9FAFB;
   --card: #FFFFFF;
   --muted: #4B5563;
   --line: #E5E7EB;
   --danger: #B91C1C;
+  --surface-soft:#F3F0FF;
+  --surface-tint:#EDE9FE;
+  --shadow: 0 16px 35px rgb(20 25 50 /8%);
+
 }
 
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) {
-    --ink: #F9FAFB;
-    --bg: #0B1020;
-    --card: #151B2E;
-    --muted: #A8B0C0;
-    --line: #273049;
-    --accent: #A78BFA;
-    --danger: #FCA5A5;
-  }
-}
+
 
 :root[data-theme="dark"] {
+  color-scheme:dark;
   --ink: #F9FAFB;
+  --accent:#C4B5FD;
+  --accent-hover:#DDD6FE;
+  --accent-contrast:#171126;
+  --lime:#A3E635;
   --bg: #0B1020;
   --card: #151B2E;
   --muted: #A8B0C0;
   --line: #273049;
-  --accent: #A78BFA;
   --danger: #FCA5A5;
+  --surface-soft:#1C2340;
+  --surface-tint:#292344;
+  --shadow: 0 16px 35px rgb(0 0 0 / 28%);
 }

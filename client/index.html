@@ -3,6 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+        (()=>{
+            let savedTheme=null;
+            try{
+                savedTheme=localStorage.getItem("portfolio-theme");
+            }catch(error){}
+               const systemPrefersDark =window.matchMedia("(prefers-color-scheme:dark)").matches;
+                const theme=savedTheme || (systemPrefersDark ?"dark":"light");
+                document.documentElement.dataset.theme=theme;
+            })();
+    
+        </script>
+
     <title>Jaona Elysé RAKOTOMAMPIANDRA-Développeur web débutant</title>
     <meta name="description" content="
     Découvrez le portfolio de Jaona Elysé RAKOTOMAMPIANDRA, développeur web débutant : projets, compétences 
@@ -15,7 +28,7 @@
     <meta property="og:decription" content="Découvrez mes projets web, mes compétences font-end
     et full-stack et mon parcours de développeur web débutant.">
     <meta name="author" content="Jaona Elysé RAKOTOMAMPIANDRA">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/variables.css">
     <link rel="stylesheet" href="css/layout.css">
@@ -47,6 +60,17 @@
                 <a class="nav-link" href="#skills">Compétences</a>
                 <a class="nav-link" href="#projects">Projets</a>
                 <a class="btn p nav-contact" href="#contact">Me contacter</a>
+                <button class="theme-toggle" id="theme-toggle"
+                type="button" aria-label="Activer le thème sombre"
+                aria-pressed="false">
+                <span class="theme-toggle-icon" aria-hidden="true">
+                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-moon" viewBox="0 0 16 16">
+  <path d="M6 .278a.77.77 0 0 1 .08.858 7.2 7.2 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277q.792-.001 1.533-.16a.79.79 0 0 1 .81.316.73.73 0 0 1-.031.893A8.35 8.35 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.75.75 0 0 1 6 .278M4.858 1.311A7.27 7.27 0 0 0 1.025 7.71c0 4.02 3.279 7.276 7.319 7.276a7.32 7.32 0 0 0 5.205-2.162q-.506.063-1.029.063c-4.61 0-8.343-3.714-8.343-8.29 0-1.167.242-2.278.681-3.286"/>
+</svg>
+                  
+                </span>
+                <span class="theme-toggle-text">Mode sombre</span>
+            </button>
             </div>
         </div>
         </div>
@@ -60,7 +84,7 @@
                 <div class="col-lg-7">
                     <div class="name">Jaona Elysé RAKOTOMAMPIANDRA</div>
                     <h1>Développeur web débutant
-                    <span>Front-end &amp; Full-stack</span>
+                    <span>Full-stack</span>
                 </h1>
                 <p>
                     Je conçois et développe des interface web modernes,
@@ -239,8 +263,7 @@
                 <div>
                     <h3>Le rôle que je vise</h3>
                     <p>
-                        Evoluer en tant que développeur web, avec une orientation front-end 
-                        et full-stack, en participant à la conception
+                        Evoluer en tant que développeur web, avec une orientation full-stack, en participant à la conception
                         et au développement de solutions utiles et performantes.
                     </p>
                 </div>
@@ -353,6 +376,6 @@
     <div id="dialog-body"></div>
     </dialog>
     <script type="module" src="js/main.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
-</body>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    </body>
 </html>
