@@ -1,9 +1,3 @@
-
-/* =====================================================
-   POINT D'ENTRÉE DU PORTFOLIO
-   Affichage, fiches projets, navigation et formulaire
-   ===================================================== */
-
 import { SKILLS, PROJECTS, SOCIAL } from "./data.js";
 
 (function () {
